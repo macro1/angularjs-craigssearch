@@ -1,0 +1,1655 @@
+[
+    {
+        "name": "SF bay area",
+        "slug": "sfbay"
+    },
+    {
+        "name": "abilene",
+        "slug": "abilene"
+    },
+    {
+        "name": "akron / canton",
+        "slug": "akroncanton"
+    },
+    {
+        "name": "albany",
+        "slug": "albany"
+    },
+    {
+        "name": "albany, GA",
+        "slug": "albanyga"
+    },
+    {
+        "name": "albuquerque",
+        "slug": "albuquerque"
+    },
+    {
+        "name": "altoona-johnstown",
+        "slug": "altoona"
+    },
+    {
+        "name": "amarillo",
+        "slug": "amarillo"
+    },
+    {
+        "name": "ames, IA",
+        "slug": "ames"
+    },
+    {
+        "name": "anchorage / mat-su",
+        "slug": "anchorage"
+    },
+    {
+        "name": "ann arbor",
+        "slug": "annarbor"
+    },
+    {
+        "name": "annapolis",
+        "slug": "annapolis"
+    },
+    {
+        "name": "appleton-oshkosh-FDL",
+        "slug": "appleton"
+    },
+    {
+        "name": "asheville",
+        "slug": "asheville"
+    },
+    {
+        "name": "ashtabula",
+        "slug": "ashtabula"
+    },
+    {
+        "name": "athens, GA",
+        "slug": "athensga"
+    },
+    {
+        "name": "athens, OH",
+        "slug": "athensohio"
+    },
+    {
+        "name": "atlanta",
+        "slug": "atlanta"
+    },
+    {
+        "name": "auburn",
+        "slug": "auburn"
+    },
+    {
+        "name": "augusta",
+        "slug": "augusta"
+    },
+    {
+        "name": "austin",
+        "slug": "austin"
+    },
+    {
+        "name": "bakersfield",
+        "slug": "bakersfield"
+    },
+    {
+        "name": "baltimore",
+        "slug": "baltimore"
+    },
+    {
+        "name": "baton rouge",
+        "slug": "batonrouge"
+    },
+    {
+        "name": "battle creek",
+        "slug": "battlecreek"
+    },
+    {
+        "name": "beaumont / port arthur",
+        "slug": "beaumont"
+    },
+    {
+        "name": "bellingham",
+        "slug": "bellingham"
+    },
+    {
+        "name": "bemidji",
+        "slug": "bemidji"
+    },
+    {
+        "name": "bend",
+        "slug": "bend"
+    },
+    {
+        "name": "billings",
+        "slug": "billings"
+    },
+    {
+        "name": "binghamton",
+        "slug": "binghamton"
+    },
+    {
+        "name": "birmingham, AL",
+        "slug": "bham"
+    },
+    {
+        "name": "bismarck",
+        "slug": "bismarck"
+    },
+    {
+        "name": "bloomington, IN",
+        "slug": "bloomington"
+    },
+    {
+        "name": "bloomington-normal",
+        "slug": "bn"
+    },
+    {
+        "name": "boise",
+        "slug": "boise"
+    },
+    {
+        "name": "boone",
+        "slug": "boone"
+    },
+    {
+        "name": "boston",
+        "slug": "boston"
+    },
+    {
+        "name": "boulder",
+        "slug": "boulder"
+    },
+    {
+        "name": "bowling green",
+        "slug": "bgky"
+    },
+    {
+        "name": "bozeman",
+        "slug": "bozeman"
+    },
+    {
+        "name": "brainerd",
+        "slug": "brainerd"
+    },
+    {
+        "name": "brownsville",
+        "slug": "brownsville"
+    },
+    {
+        "name": "brunswick, GA",
+        "slug": "brunswick"
+    },
+    {
+        "name": "buffalo",
+        "slug": "buffalo"
+    },
+    {
+        "name": "butte",
+        "slug": "butte"
+    },
+    {
+        "name": "cape cod / islands",
+        "slug": "capecod"
+    },
+    {
+        "name": "catskills",
+        "slug": "catskills"
+    },
+    {
+        "name": "cedar rapids",
+        "slug": "cedarrapids"
+    },
+    {
+        "name": "central NJ",
+        "slug": "cnj"
+    },
+    {
+        "name": "central louisiana",
+        "slug": "cenla"
+    },
+    {
+        "name": "central michigan",
+        "slug": "centralmich"
+    },
+    {
+        "name": "champaign urbana",
+        "slug": "chambana"
+    },
+    {
+        "name": "charleston, SC",
+        "slug": "charleston"
+    },
+    {
+        "name": "charleston, WV",
+        "slug": "charlestonwv"
+    },
+    {
+        "name": "charlotte",
+        "slug": "charlotte"
+    },
+    {
+        "name": "charlottesville",
+        "slug": "charlottesville"
+    },
+    {
+        "name": "chattanooga",
+        "slug": "chattanooga"
+    },
+    {
+        "name": "chautauqua",
+        "slug": "chautauqua"
+    },
+    {
+        "name": "chicago",
+        "slug": "chicago"
+    },
+    {
+        "name": "chico",
+        "slug": "chico"
+    },
+    {
+        "name": "chillicothe",
+        "slug": "chillicothe"
+    },
+    {
+        "name": "cincinnati, OH",
+        "slug": "cincinnati"
+    },
+    {
+        "name": "clarksville, TN",
+        "slug": "clarksville"
+    },
+    {
+        "name": "cleveland",
+        "slug": "cleveland"
+    },
+    {
+        "name": "clovis / portales",
+        "slug": "clovis"
+    },
+    {
+        "name": "college station",
+        "slug": "collegestation"
+    },
+    {
+        "name": "colorado springs",
+        "slug": "cosprings"
+    },
+    {
+        "name": "columbia / jeff city",
+        "slug": "columbiamo"
+    },
+    {
+        "name": "columbia, SC",
+        "slug": "columbia"
+    },
+    {
+        "name": "columbus",
+        "slug": "columbus"
+    },
+    {
+        "name": "columbus, GA",
+        "slug": "columbusga"
+    },
+    {
+        "name": "cookeville",
+        "slug": "cookeville"
+    },
+    {
+        "name": "corpus christi",
+        "slug": "corpuschristi"
+    },
+    {
+        "name": "corvallis/albany",
+        "slug": "corvallis"
+    },
+    {
+        "name": "cumberland valley",
+        "slug": "chambersburg"
+    },
+    {
+        "name": "dallas / fort worth",
+        "slug": "dallas"
+    },
+    {
+        "name": "danville",
+        "slug": "danville"
+    },
+    {
+        "name": "dayton / springfield",
+        "slug": "dayton"
+    },
+    {
+        "name": "daytona beach",
+        "slug": "daytona"
+    },
+    {
+        "name": "decatur, IL",
+        "slug": "decatur"
+    },
+    {
+        "name": "deep east texas",
+        "slug": "nacogdoches"
+    },
+    {
+        "name": "del rio / eagle pass",
+        "slug": "delrio"
+    },
+    {
+        "name": "delaware",
+        "slug": "delaware"
+    },
+    {
+        "name": "denver",
+        "slug": "denver"
+    },
+    {
+        "name": "des moines",
+        "slug": "desmoines"
+    },
+    {
+        "name": "detroit metro",
+        "slug": "detroit"
+    },
+    {
+        "name": "dothan, AL",
+        "slug": "dothan"
+    },
+    {
+        "name": "dubuque",
+        "slug": "dubuque"
+    },
+    {
+        "name": "duluth / superior",
+        "slug": "duluth"
+    },
+    {
+        "name": "east idaho",
+        "slug": "eastidaho"
+    },
+    {
+        "name": "east oregon",
+        "slug": "eastoregon"
+    },
+    {
+        "name": "eastern CO",
+        "slug": "eastco"
+    },
+    {
+        "name": "eastern CT",
+        "slug": "newlondon"
+    },
+    {
+        "name": "eastern NC",
+        "slug": "eastnc"
+    },
+    {
+        "name": "eastern kentucky",
+        "slug": "eastky"
+    },
+    {
+        "name": "eastern montana",
+        "slug": "montana"
+    },
+    {
+        "name": "eastern panhandle",
+        "slug": "martinsburg"
+    },
+    {
+        "name": "eastern shore",
+        "slug": "easternshore"
+    },
+    {
+        "name": "eau claire",
+        "slug": "eauclaire"
+    },
+    {
+        "name": "el paso",
+        "slug": "elpaso"
+    },
+    {
+        "name": "elko",
+        "slug": "elko"
+    },
+    {
+        "name": "elmira-corning",
+        "slug": "elmira"
+    },
+    {
+        "name": "erie, PA",
+        "slug": "erie"
+    },
+    {
+        "name": "eugene",
+        "slug": "eugene"
+    },
+    {
+        "name": "evansville",
+        "slug": "evansville"
+    },
+    {
+        "name": "fairbanks",
+        "slug": "fairbanks"
+    },
+    {
+        "name": "fargo / moorhead",
+        "slug": "fargo"
+    },
+    {
+        "name": "farmington, NM",
+        "slug": "farmington"
+    },
+    {
+        "name": "fayetteville",
+        "slug": "fayetteville"
+    },
+    {
+        "name": "fayetteville, AR",
+        "slug": "fayar"
+    },
+    {
+        "name": "finger lakes",
+        "slug": "fingerlakes"
+    },
+    {
+        "name": "flagstaff / sedona",
+        "slug": "flagstaff"
+    },
+    {
+        "name": "flint",
+        "slug": "flint"
+    },
+    {
+        "name": "florence / muscle shoals",
+        "slug": "shoals"
+    },
+    {
+        "name": "florence, SC",
+        "slug": "florencesc"
+    },
+    {
+        "name": "florida keys",
+        "slug": "keys"
+    },
+    {
+        "name": "fort collins / north CO",
+        "slug": "fortcollins"
+    },
+    {
+        "name": "fort dodge",
+        "slug": "fortdodge"
+    },
+    {
+        "name": "fort smith, AR",
+        "slug": "fortsmith"
+    },
+    {
+        "name": "fort wayne",
+        "slug": "fortwayne"
+    },
+    {
+        "name": "frederick",
+        "slug": "frederick"
+    },
+    {
+        "name": "fredericksburg",
+        "slug": "fredericksburg"
+    },
+    {
+        "name": "fresno / madera",
+        "slug": "fresno"
+    },
+    {
+        "name": "ft myers / SW florida",
+        "slug": "fortmyers"
+    },
+    {
+        "name": "gadsden-anniston",
+        "slug": "gadsden"
+    },
+    {
+        "name": "gainesville",
+        "slug": "gainesville"
+    },
+    {
+        "name": "galveston",
+        "slug": "galveston"
+    },
+    {
+        "name": "glens falls",
+        "slug": "glensfalls"
+    },
+    {
+        "name": "gold country",
+        "slug": "goldcountry"
+    },
+    {
+        "name": "grand forks",
+        "slug": "grandforks"
+    },
+    {
+        "name": "grand island",
+        "slug": "grandisland"
+    },
+    {
+        "name": "grand rapids",
+        "slug": "grandrapids"
+    },
+    {
+        "name": "great falls",
+        "slug": "greatfalls"
+    },
+    {
+        "name": "green bay",
+        "slug": "greenbay"
+    },
+    {
+        "name": "greensboro",
+        "slug": "greensboro"
+    },
+    {
+        "name": "greenville / upstate",
+        "slug": "greenville"
+    },
+    {
+        "name": "gulfport / biloxi",
+        "slug": "gulfport"
+    },
+    {
+        "name": "hampton roads",
+        "slug": "norfolk"
+    },
+    {
+        "name": "hanford-corcoran",
+        "slug": "hanford"
+    },
+    {
+        "name": "harrisburg",
+        "slug": "harrisburg"
+    },
+    {
+        "name": "harrisonburg",
+        "slug": "harrisonburg"
+    },
+    {
+        "name": "hartford",
+        "slug": "hartford"
+    },
+    {
+        "name": "hattiesburg",
+        "slug": "hattiesburg"
+    },
+    {
+        "name": "hawaii",
+        "slug": "honolulu"
+    },
+    {
+        "name": "heartland florida",
+        "slug": "cfl"
+    },
+    {
+        "name": "helena",
+        "slug": "helena"
+    },
+    {
+        "name": "hickory / lenoir",
+        "slug": "hickory"
+    },
+    {
+        "name": "high rockies",
+        "slug": "rockies"
+    },
+    {
+        "name": "hilton head",
+        "slug": "hiltonhead"
+    },
+    {
+        "name": "holland",
+        "slug": "holland"
+    },
+    {
+        "name": "houma",
+        "slug": "houma"
+    },
+    {
+        "name": "houston",
+        "slug": "houston"
+    },
+    {
+        "name": "hudson valley",
+        "slug": "hudsonvalley"
+    },
+    {
+        "name": "humboldt county",
+        "slug": "humboldt"
+    },
+    {
+        "name": "huntington-ashland",
+        "slug": "huntington"
+    },
+    {
+        "name": "huntsville / decatur",
+        "slug": "huntsville"
+    },
+    {
+        "name": "imperial county",
+        "slug": "imperial"
+    },
+    {
+        "name": "indianapolis",
+        "slug": "indianapolis"
+    },
+    {
+        "name": "inland empire",
+        "slug": "inlandempire"
+    },
+    {
+        "name": "iowa city",
+        "slug": "iowacity"
+    },
+    {
+        "name": "ithaca",
+        "slug": "ithaca"
+    },
+    {
+        "name": "jackson, MI",
+        "slug": "jxn"
+    },
+    {
+        "name": "jackson, MS",
+        "slug": "jackson"
+    },
+    {
+        "name": "jackson, TN",
+        "slug": "jacksontn"
+    },
+    {
+        "name": "jacksonville",
+        "slug": "jacksonville"
+    },
+    {
+        "name": "jacksonville, NC",
+        "slug": "onslow"
+    },
+    {
+        "name": "janesville",
+        "slug": "janesville"
+    },
+    {
+        "name": "jersey shore",
+        "slug": "jerseyshore"
+    },
+    {
+        "name": "jonesboro",
+        "slug": "jonesboro"
+    },
+    {
+        "name": "joplin",
+        "slug": "joplin"
+    },
+    {
+        "name": "kalamazoo",
+        "slug": "kalamazoo"
+    },
+    {
+        "name": "kalispell",
+        "slug": "kalispell"
+    },
+    {
+        "name": "kansas city, MO",
+        "slug": "kansascity"
+    },
+    {
+        "name": "kenai peninsula",
+        "slug": "kenai"
+    },
+    {
+        "name": "kennewick-pasco-richland",
+        "slug": "kpr"
+    },
+    {
+        "name": "kenosha-racine",
+        "slug": "racine"
+    },
+    {
+        "name": "killeen / temple / ft hood",
+        "slug": "killeen"
+    },
+    {
+        "name": "kirksville",
+        "slug": "kirksville"
+    },
+    {
+        "name": "klamath falls",
+        "slug": "klamath"
+    },
+    {
+        "name": "knoxville",
+        "slug": "knoxville"
+    },
+    {
+        "name": "kokomo",
+        "slug": "kokomo"
+    },
+    {
+        "name": "la crosse",
+        "slug": "lacrosse"
+    },
+    {
+        "name": "la salle co",
+        "slug": "lasalle"
+    },
+    {
+        "name": "lafayette",
+        "slug": "lafayette"
+    },
+    {
+        "name": "lafayette / west lafayette",
+        "slug": "tippecanoe"
+    },
+    {
+        "name": "lake charles",
+        "slug": "lakecharles"
+    },
+    {
+        "name": "lake of the ozarks",
+        "slug": "loz"
+    },
+    {
+        "name": "lakeland",
+        "slug": "lakeland"
+    },
+    {
+        "name": "lancaster, PA",
+        "slug": "lancaster"
+    },
+    {
+        "name": "lansing",
+        "slug": "lansing"
+    },
+    {
+        "name": "laredo",
+        "slug": "laredo"
+    },
+    {
+        "name": "las cruces",
+        "slug": "lascruces"
+    },
+    {
+        "name": "las vegas",
+        "slug": "lasvegas"
+    },
+    {
+        "name": "lawrence",
+        "slug": "lawrence"
+    },
+    {
+        "name": "lawton",
+        "slug": "lawton"
+    },
+    {
+        "name": "lehigh valley",
+        "slug": "allentown"
+    },
+    {
+        "name": "lewiston / clarkston",
+        "slug": "lewiston"
+    },
+    {
+        "name": "lexington, KY",
+        "slug": "lexington"
+    },
+    {
+        "name": "lima / findlay",
+        "slug": "limaohio"
+    },
+    {
+        "name": "lincoln",
+        "slug": "lincoln"
+    },
+    {
+        "name": "little rock",
+        "slug": "littlerock"
+    },
+    {
+        "name": "logan",
+        "slug": "logan"
+    },
+    {
+        "name": "long island",
+        "slug": "longisland"
+    },
+    {
+        "name": "los angeles",
+        "slug": "losangeles"
+    },
+    {
+        "name": "louisville",
+        "slug": "louisville"
+    },
+    {
+        "name": "lubbock",
+        "slug": "lubbock"
+    },
+    {
+        "name": "lynchburg",
+        "slug": "lynchburg"
+    },
+    {
+        "name": "macon / warner robins",
+        "slug": "macon"
+    },
+    {
+        "name": "madison",
+        "slug": "madison"
+    },
+    {
+        "name": "maine",
+        "slug": "maine"
+    },
+    {
+        "name": "manhattan, KS",
+        "slug": "ksu"
+    },
+    {
+        "name": "mankato",
+        "slug": "mankato"
+    },
+    {
+        "name": "mansfield",
+        "slug": "mansfield"
+    },
+    {
+        "name": "mason city",
+        "slug": "masoncity"
+    },
+    {
+        "name": "mattoon-charleston",
+        "slug": "mattoon"
+    },
+    {
+        "name": "mcallen / edinburg",
+        "slug": "mcallen"
+    },
+    {
+        "name": "meadville",
+        "slug": "meadville"
+    },
+    {
+        "name": "medford-ashland",
+        "slug": "medford"
+    },
+    {
+        "name": "memphis, TN",
+        "slug": "memphis"
+    },
+    {
+        "name": "mendocino county",
+        "slug": "mendocino"
+    },
+    {
+        "name": "merced",
+        "slug": "merced"
+    },
+    {
+        "name": "meridian",
+        "slug": "meridian"
+    },
+    {
+        "name": "milwaukee",
+        "slug": "milwaukee"
+    },
+    {
+        "name": "minneapolis / st paul",
+        "slug": "minneapolis"
+    },
+    {
+        "name": "missoula",
+        "slug": "missoula"
+    },
+    {
+        "name": "mobile",
+        "slug": "mobile"
+    },
+    {
+        "name": "modesto",
+        "slug": "modesto"
+    },
+    {
+        "name": "mohave county",
+        "slug": "mohave"
+    },
+    {
+        "name": "monroe",
+        "slug": "monroemi"
+    },
+    {
+        "name": "monroe, LA",
+        "slug": "monroe"
+    },
+    {
+        "name": "monterey bay",
+        "slug": "monterey"
+    },
+    {
+        "name": "montgomery",
+        "slug": "montgomery"
+    },
+    {
+        "name": "morgantown",
+        "slug": "morgantown"
+    },
+    {
+        "name": "moses lake",
+        "slug": "moseslake"
+    },
+    {
+        "name": "muncie / anderson",
+        "slug": "muncie"
+    },
+    {
+        "name": "muskegon",
+        "slug": "muskegon"
+    },
+    {
+        "name": "myrtle beach",
+        "slug": "myrtlebeach"
+    },
+    {
+        "name": "nashville",
+        "slug": "nashville"
+    },
+    {
+        "name": "new hampshire",
+        "slug": "nh"
+    },
+    {
+        "name": "new haven",
+        "slug": "newhaven"
+    },
+    {
+        "name": "new orleans",
+        "slug": "neworleans"
+    },
+    {
+        "name": "new river valley",
+        "slug": "blacksburg"
+    },
+    {
+        "name": "new york city",
+        "slug": "newyork"
+    },
+    {
+        "name": "north central FL",
+        "slug": "lakecity"
+    },
+    {
+        "name": "north dakota",
+        "slug": "nd"
+    },
+    {
+        "name": "north jersey",
+        "slug": "newjersey"
+    },
+    {
+        "name": "north mississippi",
+        "slug": "northmiss"
+    },
+    {
+        "name": "north platte",
+        "slug": "northplatte"
+    },
+    {
+        "name": "northeast SD",
+        "slug": "nesd"
+    },
+    {
+        "name": "northern WI",
+        "slug": "northernwi"
+    },
+    {
+        "name": "northern michigan",
+        "slug": "nmi"
+    },
+    {
+        "name": "northern panhandle",
+        "slug": "wheeling"
+    },
+    {
+        "name": "northwest CT",
+        "slug": "nwct"
+    },
+    {
+        "name": "northwest GA",
+        "slug": "nwga"
+    },
+    {
+        "name": "northwest KS",
+        "slug": "nwks"
+    },
+    {
+        "name": "northwest OK",
+        "slug": "enid"
+    },
+    {
+        "name": "ocala",
+        "slug": "ocala"
+    },
+    {
+        "name": "odessa / midland",
+        "slug": "odessa"
+    },
+    {
+        "name": "ogden-clearfield",
+        "slug": "ogden"
+    },
+    {
+        "name": "okaloosa / walton",
+        "slug": "okaloosa"
+    },
+    {
+        "name": "oklahoma city",
+        "slug": "oklahomacity"
+    },
+    {
+        "name": "olympic peninsula",
+        "slug": "olympic"
+    },
+    {
+        "name": "omaha / council bluffs",
+        "slug": "omaha"
+    },
+    {
+        "name": "oneonta",
+        "slug": "oneonta"
+    },
+    {
+        "name": "orange county",
+        "slug": "orangecounty"
+    },
+    {
+        "name": "oregon coast",
+        "slug": "oregoncoast"
+    },
+    {
+        "name": "orlando",
+        "slug": "orlando"
+    },
+    {
+        "name": "outer banks",
+        "slug": "outerbanks"
+    },
+    {
+        "name": "owensboro",
+        "slug": "owensboro"
+    },
+    {
+        "name": "palm springs, CA",
+        "slug": "palmsprings"
+    },
+    {
+        "name": "panama city, FL",
+        "slug": "panamacity"
+    },
+    {
+        "name": "parkersburg-marietta",
+        "slug": "parkersburg"
+    },
+    {
+        "name": "pensacola",
+        "slug": "pensacola"
+    },
+    {
+        "name": "peoria",
+        "slug": "peoria"
+    },
+    {
+        "name": "philadelphia",
+        "slug": "philadelphia"
+    },
+    {
+        "name": "phoenix",
+        "slug": "phoenix"
+    },
+    {
+        "name": "pierre / central SD",
+        "slug": "csd"
+    },
+    {
+        "name": "pittsburgh",
+        "slug": "pittsburgh"
+    },
+    {
+        "name": "plattsburgh-adirondacks",
+        "slug": "plattsburgh"
+    },
+    {
+        "name": "poconos",
+        "slug": "poconos"
+    },
+    {
+        "name": "port huron",
+        "slug": "porthuron"
+    },
+    {
+        "name": "portland, OR",
+        "slug": "portland"
+    },
+    {
+        "name": "potsdam-canton-massena",
+        "slug": "potsdam"
+    },
+    {
+        "name": "prescott",
+        "slug": "prescott"
+    },
+    {
+        "name": "provo / orem",
+        "slug": "provo"
+    },
+    {
+        "name": "pueblo",
+        "slug": "pueblo"
+    },
+    {
+        "name": "pullman / moscow",
+        "slug": "pullman"
+    },
+    {
+        "name": "quad cities, IA/IL",
+        "slug": "quadcities"
+    },
+    {
+        "name": "raleigh / durham / CH",
+        "slug": "raleigh"
+    },
+    {
+        "name": "rapid city / west SD",
+        "slug": "rapidcity"
+    },
+    {
+        "name": "reading",
+        "slug": "reading"
+    },
+    {
+        "name": "redding",
+        "slug": "redding"
+    },
+    {
+        "name": "reno / tahoe",
+        "slug": "reno"
+    },
+    {
+        "name": "rhode island",
+        "slug": "providence"
+    },
+    {
+        "name": "richmond",
+        "slug": "richmond"
+    },
+    {
+        "name": "richmond, IN",
+        "slug": "richmondin"
+    },
+    {
+        "name": "roanoke",
+        "slug": "roanoke"
+    },
+    {
+        "name": "rochester, MN",
+        "slug": "rmn"
+    },
+    {
+        "name": "rochester, NY",
+        "slug": "rochester"
+    },
+    {
+        "name": "rockford",
+        "slug": "rockford"
+    },
+    {
+        "name": "roseburg",
+        "slug": "roseburg"
+    },
+    {
+        "name": "roswell / carlsbad",
+        "slug": "roswell"
+    },
+    {
+        "name": "sacramento",
+        "slug": "sacramento"
+    },
+    {
+        "name": "saginaw-midland-baycity",
+        "slug": "saginaw"
+    },
+    {
+        "name": "salem, OR",
+        "slug": "salem"
+    },
+    {
+        "name": "salina",
+        "slug": "salina"
+    },
+    {
+        "name": "salt lake city",
+        "slug": "saltlakecity"
+    },
+    {
+        "name": "san angelo",
+        "slug": "sanangelo"
+    },
+    {
+        "name": "san antonio",
+        "slug": "sanantonio"
+    },
+    {
+        "name": "san diego",
+        "slug": "sandiego",
+        "selected": true
+    },
+    {
+        "name": "san luis obispo",
+        "slug": "slo"
+    },
+    {
+        "name": "san marcos",
+        "slug": "sanmarcos"
+    },
+    {
+        "name": "sandusky",
+        "slug": "sandusky"
+    },
+    {
+        "name": "santa barbara",
+        "slug": "santabarbara"
+    },
+    {
+        "name": "santa fe / taos",
+        "slug": "santafe"
+    },
+    {
+        "name": "santa maria",
+        "slug": "santamaria"
+    },
+    {
+        "name": "sarasota-bradenton",
+        "slug": "sarasota"
+    },
+    {
+        "name": "savannah / hinesville",
+        "slug": "savannah"
+    },
+    {
+        "name": "scottsbluff / panhandle",
+        "slug": "scottsbluff"
+    },
+    {
+        "name": "scranton / wilkes-barre",
+        "slug": "scranton"
+    },
+    {
+        "name": "seattle-tacoma",
+        "slug": "seattle"
+    },
+    {
+        "name": "sheboygan, WI",
+        "slug": "sheboygan"
+    },
+    {
+        "name": "show low",
+        "slug": "showlow"
+    },
+    {
+        "name": "shreveport",
+        "slug": "shreveport"
+    },
+    {
+        "name": "sierra vista",
+        "slug": "sierravista"
+    },
+    {
+        "name": "sioux city, IA",
+        "slug": "siouxcity"
+    },
+    {
+        "name": "sioux falls / SE SD",
+        "slug": "siouxfalls"
+    },
+    {
+        "name": "siskiyou county",
+        "slug": "siskiyou"
+    },
+    {
+        "name": "skagit / island / SJI",
+        "slug": "skagit"
+    },
+    {
+        "name": "south bend / michiana",
+        "slug": "southbend"
+    },
+    {
+        "name": "south coast",
+        "slug": "southcoast"
+    },
+    {
+        "name": "south dakota",
+        "slug": "sd"
+    },
+    {
+        "name": "south florida",
+        "slug": "miami"
+    },
+    {
+        "name": "south jersey",
+        "slug": "southjersey"
+    },
+    {
+        "name": "southeast IA",
+        "slug": "ottumwa"
+    },
+    {
+        "name": "southeast KS",
+        "slug": "seks"
+    },
+    {
+        "name": "southeast alaska",
+        "slug": "juneau"
+    },
+    {
+        "name": "southeast missouri",
+        "slug": "semo"
+    },
+    {
+        "name": "southern WV",
+        "slug": "swv"
+    },
+    {
+        "name": "southern illinois",
+        "slug": "carbondale"
+    },
+    {
+        "name": "southern maryland",
+        "slug": "smd"
+    },
+    {
+        "name": "southwest KS",
+        "slug": "swks"
+    },
+    {
+        "name": "southwest MN",
+        "slug": "marshall"
+    },
+    {
+        "name": "southwest MS",
+        "slug": "natchez"
+    },
+    {
+        "name": "southwest TX",
+        "slug": "bigbend"
+    },
+    {
+        "name": "southwest VA",
+        "slug": "swva"
+    },
+    {
+        "name": "southwest michigan",
+        "slug": "swmi"
+    },
+    {
+        "name": "space coast",
+        "slug": "spacecoast"
+    },
+    {
+        "name": "spokane / coeur d'alene",
+        "slug": "spokane"
+    },
+    {
+        "name": "springfield, IL",
+        "slug": "springfieldil"
+    },
+    {
+        "name": "springfield, MO",
+        "slug": "springfield"
+    },
+    {
+        "name": "st augustine",
+        "slug": "staugustine"
+    },
+    {
+        "name": "st cloud",
+        "slug": "stcloud"
+    },
+    {
+        "name": "st george",
+        "slug": "stgeorge"
+    },
+    {
+        "name": "st joseph",
+        "slug": "stjoseph"
+    },
+    {
+        "name": "st louis, MO",
+        "slug": "stlouis"
+    },
+    {
+        "name": "state college",
+        "slug": "pennstate"
+    },
+    {
+        "name": "statesboro",
+        "slug": "statesboro"
+    },
+    {
+        "name": "stillwater",
+        "slug": "stillwater"
+    },
+    {
+        "name": "stockton",
+        "slug": "stockton"
+    },
+    {
+        "name": "susanville",
+        "slug": "susanville"
+    },
+    {
+        "name": "syracuse",
+        "slug": "syracuse"
+    },
+    {
+        "name": "tallahassee",
+        "slug": "tallahassee"
+    },
+    {
+        "name": "tampa bay area",
+        "slug": "tampa"
+    },
+    {
+        "name": "terre haute",
+        "slug": "terrehaute"
+    },
+    {
+        "name": "texarkana",
+        "slug": "texarkana"
+    },
+    {
+        "name": "texoma",
+        "slug": "texoma"
+    },
+    {
+        "name": "the thumb",
+        "slug": "thumb"
+    },
+    {
+        "name": "toledo",
+        "slug": "toledo"
+    },
+    {
+        "name": "topeka",
+        "slug": "topeka"
+    },
+    {
+        "name": "treasure coast",
+        "slug": "treasure"
+    },
+    {
+        "name": "tri-cities, TN",
+        "slug": "tricities"
+    },
+    {
+        "name": "tucson",
+        "slug": "tucson"
+    },
+    {
+        "name": "tulsa",
+        "slug": "tulsa"
+    },
+    {
+        "name": "tuscaloosa",
+        "slug": "tuscaloosa"
+    },
+    {
+        "name": "tuscarawas co",
+        "slug": "tuscarawas"
+    },
+    {
+        "name": "twin falls",
+        "slug": "twinfalls"
+    },
+    {
+        "name": "twin tiers NY/PA",
+        "slug": "twintiers"
+    },
+    {
+        "name": "tyler / east TX",
+        "slug": "easttexas"
+    },
+    {
+        "name": "upper peninsula",
+        "slug": "up"
+    },
+    {
+        "name": "utica-rome-oneida",
+        "slug": "utica"
+    },
+    {
+        "name": "valdosta",
+        "slug": "valdosta"
+    },
+    {
+        "name": "ventura county",
+        "slug": "ventura"
+    },
+    {
+        "name": "vermont",
+        "slug": "burlington"
+    },
+    {
+        "name": "victoria, TX",
+        "slug": "victoriatx"
+    },
+    {
+        "name": "visalia-tulare",
+        "slug": "visalia"
+    },
+    {
+        "name": "waco",
+        "slug": "waco"
+    },
+    {
+        "name": "washington, DC",
+        "slug": "washingtondc"
+    },
+    {
+        "name": "waterloo / cedar falls",
+        "slug": "waterloo"
+    },
+    {
+        "name": "watertown",
+        "slug": "watertown"
+    },
+    {
+        "name": "wausau",
+        "slug": "wausau"
+    },
+    {
+        "name": "wenatchee",
+        "slug": "wenatchee"
+    },
+    {
+        "name": "west virginia (old)",
+        "slug": "wv"
+    },
+    {
+        "name": "western IL",
+        "slug": "quincy"
+    },
+    {
+        "name": "western KY",
+        "slug": "westky"
+    },
+    {
+        "name": "western maryland",
+        "slug": "westmd"
+    },
+    {
+        "name": "western massachusetts",
+        "slug": "westernmass"
+    },
+    {
+        "name": "western slope",
+        "slug": "westslope"
+    },
+    {
+        "name": "wichita",
+        "slug": "wichita"
+    },
+    {
+        "name": "wichita falls",
+        "slug": "wichitafalls"
+    },
+    {
+        "name": "williamsport",
+        "slug": "williamsport"
+    },
+    {
+        "name": "wilmington, NC",
+        "slug": "wilmington"
+    },
+    {
+        "name": "winchester",
+        "slug": "winchester"
+    },
+    {
+        "name": "winston-salem",
+        "slug": "winstonsalem"
+    },
+    {
+        "name": "worcester / central MA",
+        "slug": "worcester"
+    },
+    {
+        "name": "wyoming",
+        "slug": "wyoming"
+    },
+    {
+        "name": "yakima",
+        "slug": "yakima"
+    },
+    {
+        "name": "york, PA",
+        "slug": "york"
+    },
+    {
+        "name": "youngstown",
+        "slug": "youngstown"
+    },
+    {
+        "name": "yuba-sutter",
+        "slug": "yubasutter"
+    },
+    {
+        "name": "yuma",
+        "slug": "yuma"
+    },
+    {
+        "name": "zanesville / cambridge",
+        "slug": "zanesville"
+    }
+]
