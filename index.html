@@ -64,7 +64,7 @@
           <span class="title" onclick="$('#description_{{ $index }}').slideToggle();" data-ng-bind-html="item.title"></span>
           <span class="buttons"><a class="link" target="_blank" href="{{ item.link }}"></a> <button class="hide" data-ng-click="item.hide = true"></button></span>
         </span>
-        <div class="description hidden" id="description_{{ $index }}">{{ item.content }}</div>
+        <div class="description hidden" id="description_{{ $index }}" data-ng-bind-html="item.content"></div>
       </li>
     </ul>
 <script type="text/javascript">
