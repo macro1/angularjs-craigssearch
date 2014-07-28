@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "gulp-gh-pages": "^0.3.3",
+    "gulp": "^3.8.6",
+    "coffee-script": "^1.7.1"
+  }
+}
