@@ -1,8 +1,5 @@
 angular.module("search").filter "delta", ->
   (delta) ->
-    days = undefined
-    hours = undefined
-    minutes = undefined
     seconds = Math.floor(delta / 1000)
     minutes = Math.floor(seconds / 60)
     hours = Math.floor(minutes / 60)

@@ -10,19 +10,6 @@ html(data-ng-app='search')
     script(src='scripts/app.js')
     script.
       google.load('feeds', 1);
-      angular.module('search.filter', []).filter('delta', function() {
-      'use strict';
-      return function(delta) {
-      var days, hours, minutes, seconds = Math.floor(delta / 1000);
-      minutes = Math.floor(seconds / 60);
-      hours = Math.floor(minutes / 60);
-      days = Math.floor(hours / 24);
-      if (days > 0) { return days + "d " + (hours - days * 24) + "h"; }
-      if (hours > 0) { return hours + "h " + (minutes - hours * 60) + "m"; }
-      if (minutes > 0) { return minutes + "m " + (seconds - minutes * 60) + "s"; }
-      return seconds + "s";
-      };
-      });
   body(data-ng-controller='SearchController')
     h1 craigslist search
     form(data-ng-model='searchForm', data-ng-submit='search(newQuery)')
