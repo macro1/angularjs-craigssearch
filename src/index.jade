@@ -1,0 +1,74 @@
+doctype html
+html(data-ng-app='search')
+  head
+    title craigslist search
+    link(rel='stylesheet', type='text/css', href='styles/app.css')
+    script(src='//www.google.com/jsapi')
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js')
+    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js')
+    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-sanitize.js')
+    script(src='scripts/app.js')
+    script.
+      google.load('feeds', 1);
+      angular.module('search.filter', []).filter('delta', function() {
+      'use strict';
+      return function(delta) {
+      var days, hours, minutes, seconds = Math.floor(delta / 1000);
+      minutes = Math.floor(seconds / 60);
+      hours = Math.floor(minutes / 60);
+      days = Math.floor(hours / 24);
+      if (days > 0) { return days + "d " + (hours - days * 24) + "h"; }
+      if (hours > 0) { return hours + "h " + (minutes - hours * 60) + "m"; }
+      if (minutes > 0) { return minutes + "m " + (seconds - minutes * 60) + "s"; }
+      return seconds + "s";
+      };
+      });
+  body(data-ng-controller='SearchController')
+    h1 craigslist search
+    form(data-ng-model='searchForm', data-ng-submit='search(newQuery)')
+      input(data-ng-model='newQuery', type='text', autocomplete='on', placeholder='Type a search phrase...')
+      input(type='submit', value='Search')
+      select(data-ng-model='category')
+        option(value='ccc') community
+        option(value='eee') events
+        option(value='ggg') gigs
+        option(value='hhh') housing
+        option(value='jjj') jobs
+        option(value='ppp') personals
+        option(value='res') resumes
+        option(value='sss', selected='selected') for sale
+        option(value='bbb') services
+      button(type='button', onclick='$(\'#city_list\').slideToggle();') cities
+      ul#city_list.hidden.selection-list
+        li
+          input#select_all(type='checkbox', data-ng-model='allselected', data-ng-change='citiesto(allselected)')
+          label(for='select_all') all
+        li(data-ng-repeat='city in cities', data-ng-class='\'selected-\' + city.selected')
+          input(id='select_{{ city.slug }}', name='select_{{ city.slug }}', type='checkbox', value='{{ city.slug }}', data-ng-model='city.selected')
+          label(for='select_{{ city.slug }}') {{ city.name }}
+    .errors(data-ng-show='errors.length')
+      h2 errors querying:
+      ul
+        li(data-ng-repeat='error in errors', data-ng-bind='error')
+    h2.
+      Results for "{{ query }}" ({{ result.length }} results)
+    ul.city-status
+      li(data-ng-class='"status-" + city.status', data-ng-repeat='city in cities | filter:{selected: true}') {{ city.name }}
+    ul.result
+      li(data-ng-repeat='item in result | filter:{hide:\'!true\'} | orderBy:\'-publishedDate\'')
+        span
+          span.published {{ now() - item.publishedDate | delta }}
+          span.title(onclick='$(\'#description_{{ $index }}\').slideToggle();', data-ng-bind-html='item.title')
+          span.buttons
+            a.link(target='_blank', href='{{ item.link }}')
+            button.hide(data-ng-click='item.hide = true')
+        .description.hidden(id='description_{{ $index }}', data-ng-bind-html='item.content')
+    script(type='text/javascript').
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-41414106-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
