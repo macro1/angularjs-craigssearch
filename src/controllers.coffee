@@ -1,12 +1,10 @@
 angular.module("search").controller "SearchController", [
-  '$scope', '$filter', '$http'
-  ($scope, $filter, $http) ->
+  '$scope', '$filter', '$http', 'cities'
+  ($scope, $filter, $http, cities) ->
     $scope.result = []
     $scope.category = "sss"
     $scope.errors = []
-    $http.get('data/cities.json').success((data, status, headers, config) ->
-      $scope.cities = data
-    )
+    $scope.cities = cities
     $scope.search = (query) ->
       $scope.errors.length = 0
       $scope.result.length = 0
@@ -30,22 +28,15 @@ angular.module("search").controller "SearchController", [
             city.status = "error"
       i = undefined
       feed = undefined
-      cities = $filter("filter")($scope.cities,
-        selected: true
-      )
       $scope.result.length = 0
-      for city in cities
-        feed = new google.feeds.Feed("http://" + city.slug + ".craigslist.org/search/?catAbb=" + $scope.category + "&query=" + $scope.query + "&format=rss")
+      for city in $scope.cities.selected()
+        feed = new google.feeds.Feed "http://#{ city.slug }.craigslist.org/search/?catAbb=#{ $scope.category }&query=#{ $scope.query }&format=rss"
         city.status = "pending"
         feed.setNumEntries 100
         feed.load callback(city)
 
     $scope.citiesto = (state) ->
-      i = undefined
-      i = 0
-      while i < $scope.cities.length
-        $scope.cities[i].selected = state
-        i += 1
+      city.selected = state for city in $scope.cities.all
 
     $scope.now = ->
       new Date()

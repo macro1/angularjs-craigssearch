@@ -30,7 +30,7 @@ html(data-ng-app='search')
         li
           input#select_all(type='checkbox', data-ng-model='allselected', data-ng-change='citiesto(allselected)')
           label(for='select_all') all
-        li(data-ng-repeat='city in cities', data-ng-class='\'selected-\' + city.selected')
+        li(data-ng-repeat='city in cities.all', data-ng-class='\'selected-\' + city.selected')
           input(id='select_{{ city.slug }}', name='select_{{ city.slug }}', type='checkbox', value='{{ city.slug }}', data-ng-model='city.selected')
           label(for='select_{{ city.slug }}') {{ city.name }}
     .errors(data-ng-show='errors.length')
@@ -40,7 +40,7 @@ html(data-ng-app='search')
     h2.
       Results for "{{ query }}" ({{ result.length }} results)
     ul.city-status
-      li(data-ng-class='"status-" + city.status', data-ng-repeat='city in cities | filter:{selected: true}') {{ city.name }}
+      li(data-ng-class='"status-" + city.status', data-ng-repeat='city in cities.all | filter:{selected: true}') {{ city.name }}
     ul.result
       li(data-ng-repeat='item in result | filter:{hide:\'!true\'} | orderBy:\'-publishedDate\'')
         span
