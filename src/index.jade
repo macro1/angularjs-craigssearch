@@ -15,16 +15,7 @@ html(data-ng-app='search')
     form(data-ng-model='searchForm', data-ng-submit='search(newQuery)')
       input(data-ng-model='newQuery', type='text', autocomplete='on', placeholder='Type a search phrase...')
       input(type='submit', value='Search')
-      select(data-ng-model='category')
-        option(value='ccc') community
-        option(value='eee') events
-        option(value='ggg') gigs
-        option(value='hhh') housing
-        option(value='jjj') jobs
-        option(value='ppp') personals
-        option(value='res') resumes
-        option(value='sss', selected='selected') for sale
-        option(value='bbb') services
+      select(data-ng-model='category', data-ng-options='key as value for (key , value) in categories')
       button(type='button', onclick='$(\'#city_list\').slideToggle();') cities
       ul#city_list.hidden.selection-list
         li

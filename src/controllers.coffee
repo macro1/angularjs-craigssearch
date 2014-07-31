@@ -5,6 +5,17 @@ angular.module("search").controller "SearchController", [
     $scope.category = "sss"
     $scope.errors = []
     $scope.cities = cities
+    $scope.categories =
+      'ccc': "community"
+      'eee': "events"
+      'ggg': "gigs"
+      'hhh': "housing"
+      'jjj': "jobs"
+      'ppp': "personals"
+      'res': "resumes"
+      'sss': "for sale"
+      'bbb': "services"
+
     $scope.search = (query) ->
       $scope.errors.length = 0
       $scope.result.length = 0
