@@ -4,14 +4,26 @@ angular.module("search").controller("SearchController", [
   '$scope', '$filter', '$http', 'cities', function($scope, $filter, $http, cities) {
     $scope.result = [];
     $scope.category = "sss";
+    $scope.hide_city_list = true;
     $scope.errors = [];
     $scope.cities = cities;
+    $scope.categories = {
+      'ccc': "community",
+      'eee': "events",
+      'ggg': "gigs",
+      'hhh': "housing",
+      'jjj': "jobs",
+      'ppp': "personals",
+      'res': "resumes",
+      'sss': "for sale",
+      'bbb': "services"
+    };
     $scope.search = function(query) {
       $scope.errors.length = 0;
       $scope.result.length = 0;
       $scope.query = query;
       $scope.load();
-      return $("#city_list").hide();
+      return $scope.hide_city_list = true;
     };
     $scope.load = function() {
       var callback, city, feed, i, _i, _len, _ref, _results;
