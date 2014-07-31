@@ -3,6 +3,7 @@ angular.module("search").controller "SearchController", [
   ($scope, $filter, $http, cities) ->
     $scope.result = []
     $scope.category = "sss"
+    $scope.hide_city_list = yes
     $scope.errors = []
     $scope.cities = cities
     $scope.categories =
@@ -21,7 +22,7 @@ angular.module("search").controller "SearchController", [
       $scope.result.length = 0
       $scope.query = query
       $scope.load()
-      $("#city_list").hide()
+      $scope.hide_city_list = yes
 
     $scope.load = ->
       callback = (city) ->

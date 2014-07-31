@@ -16,8 +16,8 @@ html(data-ng-app='search')
       input(data-ng-model='newQuery', type='text', autocomplete='on', placeholder='Type a search phrase...')
       input(type='submit', value='Search')
       select(data-ng-model='category', data-ng-options='key as value for (key , value) in categories')
-      button(type='button', onclick='$(\'#city_list\').slideToggle();') cities
-      ul#city_list.hidden.selection-list
+      button(type='button', data-ng-click='hide_city_list = !hide_city_list') cities
+      ul#city_list.selection-list(data-ng-hide='hide_city_list')
         li
           input#select_all(type='checkbox', data-ng-model='allselected', data-ng-change='citiesto(allselected)')
           label(for='select_all') all
