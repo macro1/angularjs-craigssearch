@@ -1,20 +1,24 @@
 doctype html
 html(data-ng-app='search')
+
   head
     title craigslist search
     link(rel='stylesheet', type='text/css', href='styles/app.css')
     script(src='//www.google.com/jsapi')
     script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js')
-    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-sanitize.js')
+    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-route.min.js')
+    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-sanitize.min.js')
     script(src='scripts/app.js')
     script.
       google.load('feeds', 1);
+
   body(data-ng-controller='SearchController')
+    div(ng-view)
     h1 craigslist search
-    form(data-ng-model='searchForm', data-ng-submit='search(newQuery)')
-      input(data-ng-model='newQuery', type='text', autocomplete='on', placeholder='Type a search phrase...')
+    form(data-ng-submit='search(query)')
+      input(name='q', data-ng-model='query.q', type='text', autocomplete='on', placeholder='Type a search phrase...')
       input(type='submit', value='Search')
-      select(data-ng-model='category', data-ng-options='key as value for (key , value) in categories')
+      select(name='c', data-ng-model='query.c', data-ng-options='key as value for (key , value) in categories')
       button(type='button', data-ng-click='hide_city_list = !hide_city_list') cities
       ul#city_list.selection-list(data-ng-hide='hide_city_list')
         li
@@ -28,7 +32,7 @@ html(data-ng-app='search')
       ul
         li(data-ng-repeat='error in errors', data-ng-bind='error')
     h2.
-      Results for "{{ query }}" ({{ result.length }} results)
+      Results for "{{ query.q }}" ({{ result.length }} results)
     ul.city-status
       li(data-ng-class='"status-" + city.status', data-ng-repeat='city in cities.all | filter:{selected: true}') {{ city.name }}
     ul.result

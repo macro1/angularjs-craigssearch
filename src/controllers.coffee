@@ -1,8 +1,9 @@
-angular.module("search").controller "SearchController", [
-  '$scope', '$filter', '$http', 'cities'
-  ($scope, $filter, $http, cities) ->
+angular.module("search.controllers", ["search.services"]).controller "SearchController", [
+  '$scope', '$filter', '$location', '$http', 'cities'
+  ($scope, $filter, $location, $http, cities) ->
+    $scope.query = $location.search()
     $scope.result = []
-    $scope.category = "sss"
+    $scope.query.c = $scope.query.c or "sss"
     $scope.hide_city_list = yes
     $scope.errors = []
     $scope.cities = cities
@@ -18,11 +19,7 @@ angular.module("search").controller "SearchController", [
       'bbb': "services"
 
     $scope.search = (query) ->
-      $scope.errors.length = 0
-      $scope.result.length = 0
-      $scope.query = query
-      $scope.load()
-      $scope.hide_city_list = yes
+      $location.search(query)
 
     $scope.load = ->
       callback = (city) ->
@@ -41,15 +38,22 @@ angular.module("search").controller "SearchController", [
       i = undefined
       feed = undefined
       $scope.result.length = 0
-      for city in $scope.cities.selected()
-        feed = new google.feeds.Feed "http://#{ city.slug }.craigslist.org/search/?catAbb=#{ $scope.category }&query=#{ $scope.query }&format=rss"
-        city.status = "pending"
-        feed.setNumEntries 100
-        feed.load callback(city)
+      $scope.cities.promise.then ->
+        for city in $scope.cities.selected()
+          feed = new google.feeds.Feed "http://#{ city.slug }.craigslist.org/search/?catAbb=#{ $scope.query.c }&query=#{ $scope.query.q }&format=rss"
+          city.status = "pending"
+          feed.setNumEntries 100
+          feed.load callback(city)
 
     $scope.citiesto = (state) ->
       city.selected = state for city in $scope.cities.all
 
     $scope.now = ->
       new Date()
+
+    if $scope.query.q
+      $scope.errors.length = 0
+      $scope.result.length = 0
+      $scope.load()
+      $scope.hide_city_list = yes
   ]
