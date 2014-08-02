@@ -2,6 +2,7 @@ gulp = require "gulp"
 gutil = require "gulp-util"
 concat = require "gulp-concat"
 uglify = require "gulp-uglify"
+runSequence = require "run-sequence"
 
 gulp.task "jade", ->
   jade = require "gulp-jade"
@@ -32,7 +33,8 @@ gulp.task "clean", ->
   gulp.src ["./dist/*", "!./dist/data"], read: false
     .pipe clean()
 
-gulp.task "build", ["clean", "jade", "coffee", "sass"]
+gulp.task "build", (callback) ->
+  runSequence 'clean', ['jade', 'coffee', 'sass'], callback
 
 gulp.task "deploy", ["build"], ->
   deploy = require "gulp-gh-pages"

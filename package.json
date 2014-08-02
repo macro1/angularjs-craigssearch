@@ -9,6 +9,7 @@
     "gulp-uglify": "^0.3.1",
     "gulp-sass": "^0.7.2",
     "gulp-jade": "^0.7.0",
-    "gulp-clean": "^0.3.1"
+    "gulp-clean": "^0.3.1",
+    "run-sequence": "^0.3.6"
   }
 }
