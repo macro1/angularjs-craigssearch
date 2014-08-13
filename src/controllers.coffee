@@ -55,7 +55,7 @@ angular.module("search.controllers", ["search.services"]).controller "SearchCont
       new Date()
 
     # perform initial loading
-    query_cities = $scope.query.cities.split ","
+    query_cities = ($scope.query.cities or "").split ","
     $scope.cities.promise.then ->
       city.selected = (city.slug in query_cities) for city in cities.all
       $scope.search $scope.query
