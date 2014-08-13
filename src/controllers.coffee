@@ -19,6 +19,7 @@ angular.module("search.controllers", ["search.services"]).controller "SearchCont
       'bbb': "services"
 
     $scope.search = (query) ->
+      query.cities = (city.slug for city in $scope.cities.selected()).join ","
       $location.search query
       if $scope.query.q
         $scope.errors.length = 0
@@ -56,5 +57,9 @@ angular.module("search.controllers", ["search.services"]).controller "SearchCont
     $scope.now = ->
       new Date()
 
-    $scope.search $scope.query
+    # perform initial loading
+    query_cities = $scope.query.cities.split ","
+    $scope.cities.promise.then ->
+      city.selected = (city.slug in query_cities) for city in cities.all
+      $scope.search $scope.query
   ]
