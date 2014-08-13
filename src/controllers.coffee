@@ -30,7 +30,6 @@ angular.module("search.controllers", ["search.services"]).controller "SearchCont
     $scope.load = ->
       callback = (city) ->
         (result) ->
-          i = undefined
           city.status = "processing"
           unless result.error
             for entry in result.feed.entries
@@ -41,8 +40,6 @@ angular.module("search.controllers", ["search.services"]).controller "SearchCont
           else
             $scope.errors.push city.name
             city.status = "error"
-      i = undefined
-      feed = undefined
       $scope.result.length = 0
       $scope.cities.promise.then ->
         for city in $scope.cities.selected()
