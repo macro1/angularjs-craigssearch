@@ -19,7 +19,12 @@ angular.module("search.controllers", ["search.services"]).controller "SearchCont
       'bbb': "services"
 
     $scope.search = (query) ->
-      $location.search(query)
+      $location.search query
+      if $scope.query.q
+        $scope.errors.length = 0
+        $scope.result.length = 0
+        $scope.load()
+        $scope.hide_city_list = yes
 
     $scope.load = ->
       callback = (city) ->
@@ -51,9 +56,5 @@ angular.module("search.controllers", ["search.services"]).controller "SearchCont
     $scope.now = ->
       new Date()
 
-    if $scope.query.q
-      $scope.errors.length = 0
-      $scope.result.length = 0
-      $scope.load()
-      $scope.hide_city_list = yes
+    $scope.search $scope.query
   ]
