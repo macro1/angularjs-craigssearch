@@ -48,7 +48,7 @@ angular.module("search.controllers", ["search.services"]).controller "SearchCont
           feed.setNumEntries 100
           feed.load callback(city)
 
-    $scope.citiesto = (state) ->
+    $scope.set_all_cities = (state) ->
       city.selected = state for city in $scope.cities.all
 
     $scope.now = ->

@@ -22,7 +22,7 @@ html(data-ng-app='search')
       button(type='button', data-ng-click='hide_city_list = !hide_city_list') cities
       ul#city_list.selection-list(data-ng-hide='hide_city_list')
         li
-          input#select_all(type='checkbox', data-ng-model='allselected', data-ng-change='citiesto(allselected)')
+          input#select_all(type='checkbox', data-ng-model='allselected', data-ng-change='set_all_cities(allselected)')
           label(for='select_all') all
         li(data-ng-repeat='city in cities.all', data-ng-class='\'selected-\' + city.selected')
           input(id='select_{{ city.slug }}', name='select_{{ city.slug }}', type='checkbox', value='{{ city.slug }}', data-ng-model='city.selected')
