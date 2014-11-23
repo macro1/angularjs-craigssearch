@@ -19,18 +19,18 @@ html(data-ng-app='search')
   body(data-ng-controller='SearchController')
     div(ng-view)
     h1 craigslist search
-    form(data-ng-submit='search(query)')
-      input(name='q', data-ng-model='query.q', type='text', autocomplete='on', placeholder='Type a search phrase...')
-      input(type='submit', value='Search')
-      select(name='c', data-ng-model='query.c', data-ng-options='key as value for (key , value) in categories')
-      button(type='button', data-ng-click='hide_city_list = !hide_city_list') cities
-      ul#city_list.selection-list(data-ng-hide='hide_city_list')
+    form.form-inline(data-ng-submit='search(query)')
+      input.form-control(name='q', data-ng-model='query.q', type='text', autocomplete='on', placeholder='Type a search phrase...')
+      input.btn.btn-primary(type='submit', value='Search')
+      select.form-control(name='c', data-ng-model='query.c', data-ng-options='key as value for (key , value) in categories')
+      button.btn.btn-default(type='button', data-ng-click='hide_city_list = !hide_city_list') cities
+      ul#city_list.list-inline(data-ng-hide='hide_city_list')
         li
-          input#select_all(type='checkbox', data-ng-model='allselected', data-ng-change='set_all_cities(allselected)')
-          label(for='select_all') all
+          label.btn.btn-sm.btn-primary(for='select_all') all
+            input#select_all.hide(type='checkbox', data-ng-model='allselected', data-ng-change='set_all_cities(allselected)')
         li(data-ng-repeat='city in cities.all', data-ng-class='\'selected-\' + city.selected')
-          input(id='select_{{ city.slug }}', name='select_{{ city.slug }}', type='checkbox', value='{{ city.slug }}', data-ng-model='city.selected')
-          label(for='select_{{ city.slug }}') {{ city.name }}
+          label.btn.btn-xs(for='select_{{ city.slug }}', data-ng-class='{"btn-success": city.selected, "btn-default": !city.selected}') {{ city.name }}
+            input.hide(id='select_{{ city.slug }}', name='select_{{ city.slug }}', type='checkbox', value='{{ city.slug }}', data-ng-model='city.selected')
     .errors(data-ng-show='errors.length')
       h2 errors querying:
       ul
