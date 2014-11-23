@@ -43,7 +43,7 @@ angular.module("search.controllers", ["search.services"]).controller "SearchCont
       $scope.result.length = 0
       $scope.cities.promise.then ->
         for city in $scope.cities.selected()
-          feed = new google.feeds.Feed "http://#{ city.slug }.craigslist.org/search/?catAbb=#{ $scope.query.c }&query=#{ $scope.query.q }&format=rss"
+          feed = new google.feeds.Feed "http://#{ city.slug }.craigslist.org/search/#{ $scope.query.c }?query=#{ $scope.query.q }&sort=date&format=rss"
           city.status = "pending"
           feed.setNumEntries 100
           feed.load callback(city)
