@@ -28,6 +28,10 @@ gulp.task "sass", ->
     .pipe concat "app.css"
     .pipe gulp.dest "./dist/styles"
 
+gulp.task "populate-cities", ->
+  cityScraper = require "./cityScraper"
+  cityScraper()
+
 gulp.task "clean", ->
   clean = require "gulp-clean"
   gulp.src ["./dist/*", "!./dist/data"], read: false

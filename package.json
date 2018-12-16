@@ -10,6 +10,9 @@
     "gulp-sass": "~0.7.2",
     "gulp-jade": "~0.7.0",
     "gulp-clean": "~0.3.1",
-    "run-sequence": "~0.3.6"
+    "run-sequence": "~0.3.6",
+    "request": "~2.88.0",
+    "request-promise": "~4.2.2",
+    "cheerio": "~1.0.0"
   }
 }
