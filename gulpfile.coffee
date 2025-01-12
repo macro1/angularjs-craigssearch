@@ -21,7 +21,7 @@ gulp.task "coffee", ->
     .pipe gulp.dest "./dist/scripts"
 
 gulp.task "sass", ->
-  sass = require "gulp-sass"
+  sass = require("gulp-sass")(require "sass")
   gulp.src "./src/**/*.scss"
     .pipe sass()
       .on "error", gutil.log
